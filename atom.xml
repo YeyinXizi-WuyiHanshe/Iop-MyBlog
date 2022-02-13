@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://XiziYun.com/16bit-asm</id>
     <title>兮孜云，甲子</title>
-    <updated>2022-02-12T13:51:05.291Z</updated>
+    <updated>2022-02-13T06:34:42.114Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://XiziYun.com/16bit-asm"/>
     <link rel="self" href="https://XiziYun.com/16bit-asm/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://XiziYun.com/16bit-asm/images/avatar.png</logo>
     <icon>https://XiziYun.com/16bit-asm/favicon.ico</icon>
     <rights>All rights reserved 2022, 兮孜云，甲子</rights>
+    <entry>
+        <title type="html"><![CDATA[兮孜云，甲子说——编程01]]></title>
+        <id>https://XiziYun.com/16bit-asm/post/xi-zi-yun-jia-zi-shuo-bian-cheng-xin-de-01/</id>
+        <link href="https://XiziYun.com/16bit-asm/post/xi-zi-yun-jia-zi-shuo-bian-cheng-xin-de-01/">
+        </link>
+        <updated>2022-02-12T13:53:40.000Z</updated>
+        <content type="html"><![CDATA[<p>2022年13月32日  星期八：<br>
+我写了个  操作系统 兮！<br>
+谁说16位汇编不能写操作系统的！我用的十六位。</p>
+<p>首先将os_start标号处到os_ends标号处的指令复制到3000:0*这个内存单元中，<br>
+* 我喜欢3000这个内存单元，从偏移0~偏移FFFF都是0<br>
+* 给个图片<br>
+*  <img src="https://XiziYun.com/16bit-asm/post-images/1644675220187.png" alt="" loading="lazy"><br>
+从os_start到os_ends：<br>
+<img src="https://XiziYun.com/16bit-asm/post-images/1644675597225.png" alt="" loading="lazy"><br>
+os_ends里只有nop指令</p>
+<pre><code>这只是一开始的！  完整代码在我的github的16bit-asm上，网址：https://github.com/YeyinXizi-WuyiHanshe/16bit-asm（会持续更新的    未更新完    预计14月78日更新到“癸“）
+</code></pre>
+<p>然后把3000地址后512字节写入软驱A盘0面0道0扇区，重启电脑</p>
+<p>好了，完成</p>
+<p>谁说写操作系统难，难于上青天？   不要信他！！！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://XiziYun.com/16bit-asm/post/hello-gridea/</id>
